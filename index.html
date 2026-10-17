@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="player-card">
+      <h1 aria-label="Music Player">Music Player<span class="title-sun" aria-hidden="true">Music Player</span></h1>
+      <div class="player-layout">
+        <section class="player-section" aria-label="Audio player">
+          <p id="current-track">Loading songs...</p>
+          <div id="record" class="record" role="img" aria-label="Music record">
+            <span class="record-label">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v12.1a3.9 3.9 0 1 1-2-3.4V6.2l10-2.1v9a3.9 3.9 0 1 1-2-3.4V2z"/>
+              </svg>
+            </span>
+          </div>
+          <audio id="player" controls preload="metadata"></audio>
+          <p id="message" role="status" aria-live="polite"></p>
+
+          <div class="track-navigation">
+            <button id="previous" type="button" disabled>Previous</button>
+            <button id="next" type="button" disabled>Next</button>
+          </div>
+        </section>
+
+        <section class="playlist-section" aria-labelledby="playlist-heading">
+          <div class="file-picker">
+            <label for="tracks">Add songs</label>
+            <input id="tracks" type="file" accept="audio/*" multiple>
+          </div>
+          <h2 id="playlist-heading">Playlist</h2>
+          <p id="same-song-message" class="same-song-message" role="status" aria-live="polite"></p>
+          <ol id="playlist"></ol>
+        </section>
+      </div>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
