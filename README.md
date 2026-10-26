@@ -43,6 +43,23 @@ Use the Next button to move to the next track.
 
 Select another song from the playlist to switch tracks.
 
+## Help
+
+If you encounter any issues while using Jukebox, follow these steps:
+
+1. Make sure you are using an up-to-date web browser.
+2. Check your internet connection if the website or music does not load.
+3. Refresh the page and try again if the music player stops responding.
+4. If music files are not playing, check whether the files are accessible and supported by your browser.
+
+### Report an Issue
+
+If the problem persists, report it through the repository's GitHub Issues page:
+
+https://github.com/dracarys40/Jukebox/issues
+
+When reporting an issue, include a clear description of the problem, the steps to reproduce it, and any relevant error messages.
+
 
 ## License
 
