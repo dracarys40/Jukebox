@@ -7,6 +7,26 @@ it is a music web player that can play custom audio in your local files with any
 
 <img width="1879" height="1003" alt="Screenshot 2026-10-17 114941" src="https://github.com/user-attachments/assets/01eb638a-ac7a-4fbb-a650-844535a051c8" />
 
+## Tech Stack
+
+- **HTML5** – Structures the music player interface and audio controls.
+- **CSS3** – Handles the layout, styling, and visual design of the application.
+- **JavaScript** – Manages music playback, playlist interactions, track navigation, and user controls.
+- **HTML Audio API** – Enables audio playback directly in the browser.
+
+### Development Tools
+
+- **Git** – Version control.
+- **GitHub** – Source code hosting and repository management.
+- **Antideploy** – Website hosting and deployment.
+
+### Project Structure
+
+- `index.html` – Main application structure.
+- `styles.css` – Styling and layout.
+- `script.js` – Music player functionality.
+- `music/` – Directory for music files.
+
 # url
 Website: https://jukebox.antideploy.app/
 
@@ -22,6 +42,13 @@ Use the Previous button to go to the previous track.
 Use the Next button to move to the next track.
 
 Select another song from the playlist to switch tracks.
+
+
+## License
+
+This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the terms and conditions of the license.
+
+See the [LICENSE](LICENSE) file for details.
 
 
 
